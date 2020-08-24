@@ -1,0 +1,23 @@
+body {
+  background: url('../assets/brian.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.center-header {
+  padding-top: 350px;
+}
+
+.white-link > a:hover {
+  color: #ffffff;
+}
+
+.white-link > a {
+  color: #f0f0f0;
+}
