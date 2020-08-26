@@ -1,5 +1,8 @@
 body {
-  background: url('../assets/brian.jpg') no-repeat center fixed;
+  background-image: url('../assets/brian.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
