@@ -4,6 +4,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  opacity: 100%;
 }
 
 .navbar-brand {
@@ -11,7 +12,8 @@ body {
 }
 
 .center-header {
-  padding-top: 350px;
+  padding-top: 400px;
+  font-size: 53px;
 }
 
 .white-link > a:hover {
@@ -20,4 +22,5 @@ body {
 
 .white-link > a {
   color: #f0f0f0;
+  text-decoration: none;
 }
