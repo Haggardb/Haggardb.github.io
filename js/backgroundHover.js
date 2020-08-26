@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $("#leadership").mouseover(function(){
-        $("#body").css("background-image", "url('../assets/background1.png')");
+    $("#leadership").hover(function(){
+        $("#body").css("background-image", "url('../assets/background1.jpg')");
     });
 });
 
 $(document).ready(function(){
-    $("#service").mouseover(function(){
+    $("#service").hover(function(){
         $("#body").css("background-image", "url('../assets/background2.jpg')");
     });
 });
