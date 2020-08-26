@@ -22,6 +22,7 @@ body {
 
 .white-link:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .white-link {
