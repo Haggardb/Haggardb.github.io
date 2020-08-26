@@ -9,6 +9,9 @@ body {
   background-size: cover;
   -o-background-size: cover;
   transition: background-image 2s ease;
+  -webkit-transition: background-image 2s ease;
+  -moz-transition: background-image 2s ease;
+  -o-transition: background-image 2s ease;
   opacity: 100%;
 }
 
