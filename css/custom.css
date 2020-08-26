@@ -1,6 +1,5 @@
 body {
-  left: 0px;
-  background-image: url('../assets/background1.jpg');
+  background-image: url('../assets/brian.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -8,10 +7,30 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-transition: background-image 2s ease;
-  -moz-transition: background-image 2s ease;
-  -o-transition: background-image 2s ease;
-  transition: background-image 2s ease;
+}
+
+.background-image {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.background-image img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0;
+  -webkit-transition: opacity 1.5s;
+  -moz-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
 }
 
 .navbar-brand {
