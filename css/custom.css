@@ -1,5 +1,5 @@
 body {
-  background: url('../assets/brian.jpg') no-repeat center center fixed;
+  background: url('../assets/brian.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -18,11 +18,11 @@ body {
   font-size: 53px;
 }
 
-.white-link > a:hover {
+.white-link:hover {
   color: #ffffff;
 }
 
-.white-link > a {
+.white-link {
   color: #f0f0f0;
   text-decoration: none;
 }
