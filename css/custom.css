@@ -41,13 +41,17 @@ body {
   transition: opacity 1.5s;
 }
 
+.nav-link {
+  font-size: 110%;
+}
+
 .nav-pills li a.active:hover {
   background-color: #56d1ff ;
 }
 
 .navbar-brand {
   font-family: 'Dancing Script', cursive;
-  font-size: 30px;
+  font-size: 250%;
 }
 
 .center-header {
