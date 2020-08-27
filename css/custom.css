@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Heebo&family=Josefin+Sans&display=swap');
+
+html {
+  height: 75%;
+}
+
 body {
   background-image: url('../assets/brian.jpg');
   background-repeat: no-repeat;
@@ -7,6 +13,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
 .background-image {
@@ -34,12 +41,14 @@ body {
 }
 
 .navbar-brand {
+  font-family: 'Dancing Script', cursive;
   font-size: 30px;
 }
 
 .center-header {
-  padding-top: 400px;
+  font-family: 'Heebo', sans-serif;;
   font-size: 53px;
+  margin-top: 10%;
 }
 
 .white-link:hover {
