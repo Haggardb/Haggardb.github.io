@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  background-color: #00b3ff;
   background-image: url('../assets/brian.jpg');
   background-repeat: no-repeat;
   background-position: center;
