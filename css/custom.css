@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Heebo&family=Josefin+Sans&display=swap');
 
 html {
-  height: 80%;
+  height: 76%;
 }
 
 body {
@@ -74,4 +74,29 @@ body {
 label {
   font-family: 'Heebo', sans-serif;
   color: #f0f0f0;
+}
+
+footer {
+  font-family: 'Heebo', sans-serif;
+  font-size: 12px;
+  color: #f0f0f0;
+  background-color: #374f75;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #91959c;
+}
+
+footer a {
+  color: #f0f0f0;
+}
+
+footer a:hover {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+
+.border-top {
+  border-top: 2px solid black !important;
 }
