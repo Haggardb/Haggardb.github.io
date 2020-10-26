@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Heebo&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Pacifico&family=Dancing+Script&family=Mukta&family=Merriweather&family=Heebo&family=Josefin+Sans&display=swap');
 
 html {
   height: 76%;
@@ -57,11 +57,16 @@ p {
 .navbar-brand {
   font-family: 'Merriweather', serif;
   font-family: 'Dancing Script', cursive;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Libre Baskerville', serif;
+  
   font-size: 250%;
 }
 
 .center-header {
   font-family: 'Heebo', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 53px;
   margin-top: 10%;
 }
