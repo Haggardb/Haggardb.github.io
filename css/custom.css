@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Heebo&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Heebo&family=Josefin+Sans&display=swap');
 
 html {
   height: 76%;
@@ -16,6 +16,10 @@ body {
   background-size: cover;
   height: 100%;
   overflow: auto;
+}
+
+p {
+  font-family: 'Heebo', sans-serif;
 }
 
 .background-image {
@@ -51,6 +55,7 @@ body {
 }
 
 .navbar-brand {
+  font-family: 'Merriweather', serif;
   font-family: 'Dancing Script', cursive;
   font-size: 250%;
 }
