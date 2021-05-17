@@ -5,8 +5,7 @@ html {
 }
 
 body {
-  background-color: #00b3ff;
-  background-image: url('../assets/brian.jpg');
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -48,20 +47,28 @@ p {
 
 .nav-link {
   font-size: 110%;
+  color: black !important;
+  text-decoration: none;
+}
+
+.active {
+  color: white !important;
 }
 
 .nav-pills li a.active:hover {
-  background-color: #56d1ff;
+  background-color: #666666 !important;
+}
+
+.nav-pills li a.active {
+  background-color: #000000 !important;
 }
 
 .navbar-brand {
-  font-family: 'Merriweather', serif;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Mukta', sans-serif;
-  font-family: 'Pacifico', cursive;
   font-family: 'Libre Baskerville', serif;
   
   font-size: 250%;
+
+  color: black !important;
 }
 
 .center-header {
@@ -72,18 +79,18 @@ p {
 }
 
 .white-link:hover {
-  color: #ffffff;
+  color: #666666;
   text-decoration: none;
 }
 
 .white-link {
-  color: #f0f0f0;
+  color: black;
   text-decoration: none;
 }
 
 label {
   font-family: 'Heebo', sans-serif;
-  color: #f0f0f0;
+  color: black;
 }
 
 footer {
@@ -109,4 +116,10 @@ footer a:hover {
 
 .border-top {
   border-top: 2px solid black !important;
+}
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
