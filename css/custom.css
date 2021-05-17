@@ -118,8 +118,10 @@ footer a:hover {
   border-top: 2px solid black !important;
 }
 
-.abs-center-x {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+@media (min-width: 900px) {
+  .abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
