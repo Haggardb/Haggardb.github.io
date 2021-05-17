@@ -75,11 +75,16 @@ p {
   font-family: 'Heebo', sans-serif;
   font-family: 'Libre Baskerville', serif;
   font-size: 53px;
-  margin-top: 10%;
+}
+
+.sub-header {
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
 }
 
 .white-link:hover {
-  color: #666666;
+  color: white;
   text-decoration: none;
 }
 
@@ -124,4 +129,9 @@ footer a:hover {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+.px-6 {
+  padding-left: 15%;
+  padding-right: 15%;
 }
