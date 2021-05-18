@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #FFFEF2;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -90,7 +90,7 @@ p {
 }
 
 .white-link:hover {
-  color: white;
+  color: #666666;
   text-decoration: none;
 }
 
