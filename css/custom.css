@@ -72,31 +72,34 @@ p {
 }
 
 .center-header {
-  font-family: 'Heebo', sans-serif;
   font-family: 'Libre Baskerville', serif;
   font-size: 53px;
 }
 
 .research-header {
-  font-family: 'Heebo', sans-serif;
   font-family: 'Libre Baskerville', serif;
   font-size: 32px;
 }
 
 .sub-header {
-  font-family: 'Heebo', sans-serif;
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
 }
 
-.white-link:hover {
+.large-link:hover {
   color: #666666;
   text-decoration: none;
 }
 
-.white-link {
+.large-link {
   color: black;
   text-decoration: none;
+}
+
+.sub-header .active {
+  padding: .25rem;
+  border-radius: .25rem;
+  background-color: black;
 }
 
 label {
